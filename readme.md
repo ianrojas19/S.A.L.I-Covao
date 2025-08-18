@@ -137,6 +137,7 @@ Toda la infraestructura real fue hospedada por **Aurosoft Solutions**.
 La versión actualizada de SALI incluye:
 - Todos los cambios solicitados en **agosto 2025** por parte del COVAO diurno y módulos extra de seguridad.  
 - Dominio propio.  
+- Sitio Web de Ayuda y Capacitaciones.
 - Base de datos con la información completa.  
 - Soporte para servicio web y correo electrónico.  
 - **Soporte técnico completo**.  

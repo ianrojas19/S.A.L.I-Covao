@@ -110,7 +110,7 @@ Toda la infraestructura real fue hospedada por **Aurosoft Solutions**.
 ### Condiciones:
 - La **base de datos completa** puede ser adquirida por **₡50,000** (colones costarricenses), coordinando previamente al correo:  
   📧 soporte@aurosoftsl.com  
-- El **dominio web** también puede ser transferido por **₡10,000** a la institución correspondiente.
+- El dominio web **salicovao.com** y **ayuda.salicovao.com** también puede ser transferido por **₡10,000** a la institución correspondiente.
 
 ---
 

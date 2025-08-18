@@ -1,0 +1,37 @@
+@import url(profesor.css);
+
+.act_subtitle {
+  font-size: 0.95em;
+  color: #474747;
+}
+
+.act_title {
+  color: #174874;
+}
+
+.act_data {
+  color: #165994;
+}
+
+.inbox{
+    transition: 0.5s all ease;
+}
+
+.inbox-active{
+    background-color: #113c62 !important;
+    color: #ffffff !important;
+}
+
+.inbox-act{
+    transition: 0.2s all ease;
+    cursor: pointer;
+    background-color: white;
+    color: #1e507f;
+}
+
+.key_cont {
+  background-color: #174874;
+  font-size: 0.85em;
+  margin-bottom: 5px;
+}
+

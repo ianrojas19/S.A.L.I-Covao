@@ -1,0 +1,39 @@
+@import url(profesor.css);
+#choose_key_to_return .input-group {
+  width: 48%;
+}
+.transjaja {
+  transition: 0.2s;
+}
+#choose_key_to_return .input-group-text {
+  background-color: #143e63;
+}
+#ubication_tutorials a {
+  text-decoration: none;
+  color: #143e63;
+  font-weight: 600;
+}
+.tutorial_icon {
+  width: 45px;
+  height: 45px;
+}
+.tutorial_icon_primary {
+  z-index: 10;
+  filter: drop-shadow(5px 5px 2px #00000090);
+}
+.tutorial_icon_secondary {
+  position: relative;
+  left: -20px;
+  z-index: 5;
+}
+.form-control {
+  box-shadow: none !important;
+}
+.requested-group{
+    background-color: #2998cb !important;
+}
+@media (max-width: 768px) {
+  #choose_key_to_return .input-group {
+    width: 100% !important;
+  }
+}

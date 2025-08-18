@@ -1,0 +1,6 @@
+@import url(profesor.css);
+
+#form_solicitud label {
+  font-weight: 600;
+  color: #143e63;
+}

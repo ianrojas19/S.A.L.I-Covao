@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/assets/images/covao/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./public/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/auth/registro.css">
+    <title>SALI · Registro Exitoso</title>
+</head>
+
+<style>
+    .next_steps {
+        padding-right: 5%;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .reg-condition {
+        padding-left: 2px;
+        margin-bottom: 8px;
+    }
+
+
+    .bkt_login {
+        background-color: #1B4B76;
+        transition: 0.3s all ease;
+        font-weight: 600;
+        text-decoration: none !important;
+    }
+
+    .bkt_login:hover {
+        background-color: #1f5686;
+    }
+
+
+
+    @media screen and (max-width: 1100px) {
+        .form-container {
+            width: 95% !important;
+        }
+
+        .w-next {
+            flex-direction: column-reverse;
+            gap: 20px;
+        }
+
+        .w-next video,
+        .next_steps {
+            width: 100% !important;
+        }
+
+        .next_steps {
+            padding-right: 0%;
+        }
+
+    }
+</style>
+
+<body>
+    <section
+        class="form-container container-fluid justify-content-start col-md-5 col-12 mx-auto px-md-5 px-4 py-3 my-md-5 my-3"
+        style="max-width: 1100px; height: 100% !important; width: 100%;">
+        <h1 class="mb-md-5 mb-4" style="text-align: center;">Solicitud de registro enviada correctamente</h1>
+
+        <div class="w-next d-flex h-100 justify-content-start align-items-start">
+
+            <div class="next_steps mt-md-0 mt-2" style="width: 50%;">
+                <h2>Siguientes pasos en <span style="color: #1B4B76;">S.A.L.I</span></h2>
+                <ul>
+                    <li class="reg-condition">Ingrese a la bandeja del correo electrónico <b>institucional</b> que usted
+                        brindo en el registro, y compruebe que haya recibido nuestro correo de confirmación de su
+                        solicitud de registro</li>
+
+                    <li class="reg-condition"> En caso de que no visualize el correo electrónico de confirmación, revise
+                        la carpeta de <b>SPAM</b> o "no deseados" </li>
+
+                    <li class="reg-condition">Este pendiente de nuestra respuesta por este mismo medio, ya que sera contactado para recibir la aprobacion o rechazo de su solicitud <b>únicamente</b> por el correo donde se envía la confirmación de solicitud</li>
+
+                    <li class="reg-condition"><b style="color: #1B4B76;">Importante:</b> Recuerde el <b>correo institucional y contraseña</b> que ingreso en este formulario, si su solicitud es aceptada, unicamente podrá ingresar al sistema con estas credenciales.</li>
+                </ul>
+                <a href="login" class="bkt_login my-4">Volver a inicio</a>
+            </div>
+
+            <video autoplay loop muted class="p-md-2 p-0" style="width:50%; border-radius: 10px;">
+                <source src="./public/assets/videos/what_next_register.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+@import url(../admin/admin.css);.key_bg_state{padding:20px}@media(min-width: 1100px){body{overflow: hidden}#ds_panel_body{padding-right:10px}}@media(max-width: 800px){#ds_panel_body{padding-right:0px!important;overflow-y: unset!important;}}.key_0{background-color:#17774a!important}.key_1{background-color:#52585e!important}.key_number{color:#19446a}.key_user input{border:none!important;border-bottom:1px solid #d6d6d6!important;border-radius:0!important;box-shadow:none!important;padding-left:2px!important;padding-right:0!important}.act_key_info{background-color:#19446a!important;transition:.3s;color:#fff!important;padding:.4rem 0;font-weight:600}.act_key_info:hover{background-color:#1f5380!important}.key_use_reason{min-height:110px!important;box-shadow:none!important} .btn_change_key_state{display:none;}
+
+
+/* Cuando el radio con clase 'disponible' está seleccionado */
+input.btn-check.disponible:checked + label {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+/* Cuando el radio con clase 'ocupada' está seleccionado */
+input.btn-check.ocupada:checked + label {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
